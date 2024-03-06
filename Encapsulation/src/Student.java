@@ -67,7 +67,7 @@ public class Student {
     }
 
     public void printStudent(){
-        System.out.print(name + " " + surname + ",\n" + age + " Years,\n" + number + ",\n" + name + " is on the "
-        + semester + " semester with " + grade + " grade.");
+        System.out.print(this.name + " " + this.surname + ",\n" + this.age + " Years,\n" + this.number + ",\n"
+        + this.name + " is on the " + this.semester + " semester with " + this.grade + " grade.");
     }
 }
